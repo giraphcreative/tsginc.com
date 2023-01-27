@@ -8,6 +8,12 @@
         text-align: center;
         padding: 60px 30px;
 
+        @include respond-to( $bp-m ) {
+            display: flex;
+            align-items: center;
+            vertical-align: middle;
+        }
+
         @include respond-to( $bp-l ) {
             padding: 100px 160px;
         }
@@ -18,12 +24,6 @@
         color: white;
     }
     
-    @include respond-to( $bp-m ) {
-        display: flex;
-        align-items: center;
-        vertical-align: middle;
-    }
-
     .column-image {
         flex: 1;
         flex-basis: 33.3333%;
