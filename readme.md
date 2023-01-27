@@ -1,11 +1,5 @@
-## wp-pure
+## tsginc.com
 
-A simple WordPress theme development framework - with a few helpful built-in shortcodes, Sass, Minify, and everything you'll need to build a new theme.
+A simple WordPress theme for Thrive Services Group - developed in the open.
 
-```shell
-cd wp-content/themes/
-composer create-project jpederson/wp-pure
-npm install
-```
-
-Then, to start editing, just run `grunt`.
+© 2023 Thrive Services Group. All rights reserved.
