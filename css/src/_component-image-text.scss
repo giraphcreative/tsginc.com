@@ -1,0 +1,40 @@
+
+
+.image-text {
+    @include padding;
+
+    &.grey {
+        background: $grey-light;
+    }
+
+    .image-text-image {
+        text-align: center;
+    }
+    
+    @include respond-to( $bp-m ) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.right {
+            flex-direction: row-reverse;
+
+            .image-text-image {
+                margin-right: 0;
+                margin-left: 4%;
+            }
+        }
+
+        .image-text-image {
+            flex: 1;
+            flex-basis: 31%;
+            margin-right: 4%;
+        }
+
+        .image-text-content {
+            flex: 1;
+            flex-basis: 65%;
+        }
+    }
+}
+

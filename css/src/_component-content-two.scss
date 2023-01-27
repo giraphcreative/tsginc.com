@@ -1,0 +1,28 @@
+
+
+.content-two-column {
+    @include padding;
+
+    &.grey {
+        background: $grey-light;
+    }
+
+    @include respond-to( $bp-m ) {
+        .content-columns {
+            display: flex;
+            align-items: center;
+            vertical-align: middle;
+
+            .column-one {
+                flex: 1;
+                padding-right: 2.5%;
+            }
+
+            .column-two {
+                flex: 1;
+                padding-left: 2.5%;
+            }
+        }
+    }
+}
+

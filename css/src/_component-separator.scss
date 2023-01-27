@@ -1,0 +1,31 @@
+
+
+.separator {
+    height: 25px;
+    background: url(../img/bg-separator.png) right center / cover no-repeat;
+
+    &.teal {
+        background-image: url(../img/bg-separator-teal.png);
+    }
+
+    &.red {
+        background-image: url(../img/bg-separator-red.png);
+    }
+
+    &.sky {
+        background-image: url(../img/bg-separator-sky.png);
+    }
+
+    &.orange {
+        background-image: url(../img/bg-separator-orange.png);
+    }
+
+    &.grey {
+        background-image: url(../img/bg-separator-grey.png);
+    }
+
+    @include respond-to( $bp-m ) {
+        height: 35px;
+    }
+}
+

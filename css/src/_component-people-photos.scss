@@ -1,0 +1,50 @@
+
+
+.people-photos {
+    @include padding;
+
+    &.grey {
+        background: $grey-light;
+    }
+
+    .people-photos-inner {
+        text-align: center;
+
+        @include respond-to( 450px ) {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -3%;
+        }
+
+        .person {
+            @include respond-to( 450px ) {
+                flex: 1;
+                flex-basis: 50%;
+                flex-grow: 0;
+                padding-right: 3%;
+            }
+
+            @include respond-to( $bp-l ) {
+                flex: 1;
+                flex-basis: 33.333%;
+                flex-grow: 0;
+                padding-right: 3%;
+            }
+
+            .person-info {
+                padding-bottom: 25px;
+
+                h4 {
+                    @include font-bold;
+                    padding: 10px 0 0;
+                }
+
+                p {
+                    font-size: 1.2em;
+                    padding: 0 0 15px;
+                }
+            }
+        }
+    }
+}
+

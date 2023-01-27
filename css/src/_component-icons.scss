@@ -1,0 +1,67 @@
+
+
+.icons {
+    @include padding;
+
+    &.grey {
+        background: $grey-light;
+    }
+
+    &.nopad {
+        padding: 0 inherit;
+    }
+
+    &.nopadtop {
+        padding-top: 0;
+    }
+
+    &.nopadbottom {
+        padding-bottom: 0;
+    }
+
+    @include respond-to( 450px ) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @include respond-to( $bp-l ) {
+        flex-wrap: nowrap;
+    }
+
+    .icon {
+        padding: 0;
+        text-align: center;
+
+        a {
+            display: block;
+        }
+
+        .icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+        h4 {
+            @include font-bold;
+            text-transform: uppercase;
+            color: $navy;
+            font-size: 1.2em;
+        }
+
+        @include respond-to( 450px ) {
+            flex: 1;
+            flex-basis: 50%;
+        }
+
+        @include respond-to( $bp-m ) {
+            flex-basis: 33.3333%;
+        }
+
+        @include respond-to( $bp-l ) {
+            flex-basis: auto;
+        }
+    }
+}
+

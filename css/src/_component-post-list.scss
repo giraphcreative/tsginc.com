@@ -1,0 +1,13 @@
+
+
+.post-list-title {
+    @include padding;
+    background: $grey;
+    color: white;
+    text-transform: uppercase;
+}
+
+.post-list {
+    @include padding;
+}
+
