@@ -5,12 +5,13 @@
 <head>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4K7P5Z5GV"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMYSX890BF"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-K4K7P5Z5GV');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CMYSX890BF');
 </script>
 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
