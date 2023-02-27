@@ -24,5 +24,5 @@ require_multi( 'shortcode/button', 'shortcode/articles' );
 require_multi( 
     'component/header', 'component/icons', 'component/blockquote', 'component/image-text', 
     'component/separator', 'component/content', 'component/content-two', 'component/people-photos', 'component/people',
-    'component/button-columns', 'component/accordions', 'component/post-list' );
+    'component/button-columns', 'component/accordions', 'component/post-list', 'component/slides' );
 

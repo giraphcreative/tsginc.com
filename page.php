@@ -12,9 +12,12 @@ if( have_rows('components') ):
         if ( get_row_layout() == 'header' ):
 			the_header();
 
-        elseif ( get_row_layout() == 'separator' ): 
-        	the_separator();
+        elseif ( get_row_layout() == 'slides' ): 
+            the_slides();
 
+        elseif ( get_row_layout() == 'separator' ): 
+            the_separator();
+            
         elseif ( get_row_layout() == 'content' ): 
             the_content_area();
 
