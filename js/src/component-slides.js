@@ -72,7 +72,7 @@ jQuery(document).ready(function($){
 			setTimeout( function() {
 				// once we're loaded up, set a timer to auto-rotate the slides.
 				if ( slide_count > 1 ) {
-					auto_rotate = setInterval( next_slide, 10000 );
+					auto_rotate = setInterval( next_slide, 5000 );
 				}
 			}, 500 );
 
